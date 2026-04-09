@@ -1,5 +1,5 @@
 import React from "react";
-import { FaTimes, FaPen, FaRegCircle } from "react-icons/fa";
+import { FaTimes, FaRegCircle } from "react-icons/fa";
 
 const Icon = ({ name }) => {
     switch (name) {
@@ -8,7 +8,7 @@ const Icon = ({ name }) => {
         case "cross":
             return <FaTimes className="icons" />;
         default:
-            return <FaPen className="icons" />;
+            return null;
     }
 };
 
